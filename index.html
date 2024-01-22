@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="./img/logo/logo.png" type="image/x-icon">
+  <title>Shashi Kapoor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- external css start -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- external css end -->
+
+  <!-- font awesome start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font awesome end -->
+</head>
+
+<body>
+
+<div class="container">
+  <!-- NavBar Section Start -->
+  <section id="navBar" class="sticky-top">
+    <nav class="navbar navbar-expand-lg  navbar-dark navBarImg" aria-label="Fifth navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#banner"><img src="./img/logo/logo.png" alt="logo" width="70px" class="mx-2">SHASHI KAPOOR</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
+          aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+     <div class="d-flex text-end">
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item text-center">
+              <a class="nav-link active" aria-current="page" href="#banner" onclick="activeHandler(this)">Home</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#about" onclick="activeHandler(this)">About</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#education" onclick="activeHandler(this)">Education</a>
+            </li>
+
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#skills" onclick="activeHandler(this)">Skills</a>
+            </li>
+
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#experience" onclick="activeHandler(this)">Experience</a>
+            </li>
+
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#portfolio" onclick="activeHandler(this)">Portfolio</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#clients" onclick="activeHandler(this)">Clients</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" title="Download Catelog" href="./catelog/SHASHI.pdf" download="catelog" target="_blank" onclick="downloadPDF()"><i class="fa-solid fa-download pr-2"></i> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </section>
+  <!-- NavBar Section End -->
+
+  <!-- Banner and about start -->
+  <section id="banner">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banners/one.jpg" class="d-block w-100 img-fluid" alt="Banner one" height="500px"/>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banners/two.jpg" class="d-block w-100 img-fluid" alt="Banner two" height="500px"/>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banners/three.jpg" class="d-block w-100 img-fluid" alt="Banner three" height="500px"/>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+    <!-- Banner end -->
+    <!-- about start -->
+    <section id="about">
+    <div class="mt-5">
+      <h1 class="text-center animationLeftAndRight text-secondary">About me</h1>
+      <hr />
+      <div class="row mt-5">
+        <div class="col-lg-6 d-flex justify-content-center">
+          <div class="w-75">
+            <p>
+            <p>Hello,</p>
+            I'm Shashi Kapoor, a passionate and creative graphic
+            designer with a keen eye for aesthetics and a commitment to
+            delivering visually compelling solutions. I bring a unique blend
+            of artistic talent and technical proficiency to every project. My design philosophy revolves around
+            understanding the core objectives and audience of a project, allowing me to craft designs that not only look
+            great but also resonate with the intended audience.
+            </p>
+            <hr />
+            <div class="row d-flex justify-content-evenly">
+              
+              <div class="col-lg-5 bgColor rounded mt-2">
+                <div><i class="fa-solid fa-phone-volume"></i> +91 8182878286</div>
+              </div>
+
+              <div class="col-lg-6 bgColor rounded mt-2">
+                <div><i class="fa-solid fa-envelope"></i> shaship8181@gmail.com</div>
+              </div>
+              
+            </div>
+
+            <div class="row d-flex justify-content-evenly mt-2">
+              
+              <div class="col-lg-5 bgColor rounded mt-2">
+                
+                <div><i class="fa-brands fa-square-instagram"></i> @shashi.aryan.351</div>
+              </div>
+              <div class="col-lg-6 bgColor rounded mt-2">
+               
+                <div><i class="fa-brands fa-facebook"></i> Shashi Aryan</div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center mt-5">
+          <div class="card w-50 animationUpAndDown mt-3">
+            <img src="./img/profilePhoto/user.jpeg" class="card-img-top " alt="profile photo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about End -->
+
+  <!-- education Start -->
+
+  <section id="education">
+    <div class="mt-5">
+      <h1 class="text-center animationLeftAndRight text-secondary">Education</h1>
+      <hr />
+      <div class="row">
+
+        <div class="col-lg-4 border-end d-flex justify-content-center">
+          <div class="p-5 bgColor">
+            <h4>2006 - 2009</h4>
+            <h6  class="text-uppercase">Bachelor of Arts</h6>
+            <p>VPSPU Jaunpur, India</p>
+            <p>Completed a Bachelor of Arts (B.A.) in Political Science provides me communication skills, global awareness, public service opportunities, leadership development etc.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 border-end d-flex justify-content-center">
+          <div class="p-5">
+            <h4>2004 - 2006</h4>
+            <h6  class="text-uppercase">Intermediate (12th)</h6>
+            <p>UP Board Allahabad, India</p>
+            <p>Completed Intermediate which enhance my confidence, skill, problem-solving abilities, Preparation for advanced levels, creativity etc</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="p-5 bgColor">
+            
+            <h4 class="bgColor">2003-2004</h4>
+            <h6  class="text-uppercase">High School (10th)</h6>
+            <p>UP Board Allahabad, India</p>
+            <p>Completing high school is more than just a milestone; it's a transformative journey that has shaped us into the individuals we are today.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 p-5">
+            <h4>2016 - 2016</h4>
+            <h6>We Designing</h6>
+            <p>Ducat, Noida</p>
+            <p>Started a journey into the dynamic and creative world of digital aesthetics.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- education end -->
+
+
+  <!-- skills start -->
+  <section id="skills">
+    <div class="mt-5">
+      <h1 class="text-center animationLeftAndRight text-secondary">Skills</h1>
+      <hr />
+      <div class="mt-5">
+        <div class="row">
+          <div class="col-lg-6 d-flex justify-content-center">
+            <div class="w-75">
+              <p>Adobe Photoshop</p>
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 90%"></div>
+              </div>
+              <p>Adobe Illustrator</p>
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 80%"></div>
+              </div>
+              <p>Adobe Bridge</p>
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-success" style="width: 82%"></div>
+              </div>
+              <p>Filmora9</p>
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-secondary" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-center">
+            <div class="w-75">
+              <p>Adobe InDesign</p>
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-danger" style="width: 89%"></div>
+              </div>
+              <p>Adobe Premiere Pro</p>
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-secondary" style="width: 81%"></div>
+              </div>
+              <p>CorelDraw 2023</p>
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-dark" style="width: 95%"></div>
+              </div>
+              <p>MS Office</p>
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-muted" style="width: 50%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skills end -->
+
+
+
+  <!-- experience start -->
+  <section id="experience">
+    <div class="mt-5">
+      <h1 class="text-center animationLeftAndRight text-secondary">Experience</h1>
+      <hr />
+      <div class="row mt-5">
+        <!-- <div class="w-100  d-flex justify-content-center py-5"> -->
+          <div class="col-12 table-responsive">
+            <table class="text-center">
+
+              <tr>
+                <td></td>
+                <td></td>
+                <td class="px-5 py-3">Trontek</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="px-5">Techmetrica</td>
+                <td class="bg-success fs-2 rounded px-5 wall"><p class="bg-light rounded mt-2 px-2">2019-2023</p></td>
+              </tr>
+              <tr>
+                <td>ND Marketing</td>
+                <td class="bg-success fs-2 rounded px-5 wall"><p class="bg-light rounded mt-2 px-2">2017-2019</p></td>
+                <td class="px-3">Graphics Manager</td>
+              </tr>
+              <tr>
+                <td class=" fs-2 rounded px-5 wall"><p class="bg-light rounded mt-2 px-2">2015-2016</p></td>
+                <td class="px-3">As a Graphics Designer</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="px-3 py-3">As a Graphics Designer</td>
+                <td></td>
+                <td></td>
+              </tr>
+             
+            </table>
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- experience end -->
+
+
+
+
+
+
+  <!-- portfolio start -->
+  <section id="portfolio">
+    <div class="mt-5">
+      <h1 class="text-center animationLeftAndRight text-secondary">Portfolio</h1>
+      <hr />
+    </div>
+    <div class="mt-5">
+      <div class="text-center">
+
+        <button class="btn btn-outline-primary" style="min-width: 101px;" onclick="filterPortfolio()"
+          value="all">All</button>
+        <button class="btn btn-outline-primary" style="min-width: 101px;" onclick="filterPortfolio(this)"
+          value="logo">Logo</button>
+        <button class="btn btn-outline-primary" style="min-width: 101px;" onclick="filterPortfolio(this)"
+          value="creativity">Creativity</button>
+
+
+      </div>
+      <div class="row my-3" id="portfolioPostContainer"></div>
+    </div>
+    </div>
+  </section>
+  <!-- portfolio end -->
+
+  
+
+
+
+
+  <!-- clients start -->
+  <div class="container">
+  <section id="clients">
+    <div class="mt-5 ">
+      <h1 class="text-center animationLeftAndRight text-secondary">Clients</h1>
+      <hr />
+    </div>
+    <div class="mt-5">
+      <div class="row ">
+        
+        <div class="col-lg-3 mt-3">
+          <div class="card">
+            <img src="./img/clients/client1.png" class="card-img-top img-fluid" alt="client" title="ND Marketing"  height="200px"/>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-3">
+          <div class="card">
+            <img src="./img/clients/client2.png" class="card-img-top img-fluid" alt="client" title="EDU OK"  height="200px"/>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-3">
+          <div class="card">
+            <img src="./img/clients/client3.jpeg" class="card-img-top img-fluid" alt="client" title="Techmetrica"  height="200px"/>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-3">
+          <div class="card">
+            <img src="./img/clients/client4.png" class="card-img-top img-fluid" alt="client" title="Avidor"  height="200px"/>
+          </div>
+        </div>
+      
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- clients end -->
+
+
+
+
+
+  <!-- footer start -->
+  <section id="footer" class="bg-dark">
+    <footer class="py-3 my-4 ">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="text-white">SHASHI KAPOOR | Graphics Manager | +91 8182878286 | <img src="./img/footer/currentCompany.png" alt="currentCompany" width="50px"></p>
+         </div>
+        </div>
+      
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-5">
+          <div class="card">
+          <img src="./img/footer/visitingCard.png" class="card-img-top img-fluid" alt="client" title="Avidor"  height="200px"/>
+        </div></div>
+        <div class="col-lg-5"><div class="card">
+          <img src="./img/footer/visitingLogo.png" class="card-img-top img-fluid" alt="client" title="Avidor"  height="200px"/>
+        </div></div>
+      </div>
+    </footer>
+  </section>
+  <!-- footer end -->
+</div>
+</div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var links = document.querySelectorAll("a");
+      links.forEach(function (link) {
+        link.addEventListener("click", function (e) {
+           e.preventDefault();
+
+          var targetId = this.getAttribute("href").substring(1);
+          var targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            var offset = targetElement.offsetTop - 140; // Adjusted to account for the fixed navbar
+            window.scrollTo({
+              top: offset,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    });
+  </script>
+
+  <script>
+    function activeHandler(element) {
+      let menus = document.querySelectorAll(".nav-link");
+      menus.forEach((ele) => {
+        ele.classList.remove("active");
+      });
+      element.classList.add("active");
+    }
+  </script>
+
+<script>
+  function downloadPDF() {
+      var pdfUrl = './catelog/SHASHI.pdf'; // Replace with the actual path to your PDF file
+
+      fetch(pdfUrl)
+          .then(response => response.blob())
+          .then(blob => {
+              var url = window.URL.createObjectURL(blob);
+
+              // Create a link element
+              var a = document.createElement('a');
+              a.href = url;
+              a.download = 'shashi_catelog.pdf'; // Specify the name of the downloaded file
+
+              // Trigger a click event on the link
+              var event = new MouseEvent('click');
+              a.dispatchEvent(event);
+
+              // Cleanup
+              window.URL.revokeObjectURL(url);
+          })
+          .catch(error => console.error('Error downloading PDF:', error));
+  }
+</script>
+
+
+  <script src="js/js.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

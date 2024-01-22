@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+body{
+  /* background-image: url("../img/background/body.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+html{
+  scroll-behavior: smooth;
+  
+}
+
+.active{
+  
+  font-size: large;
+  background-color: orange;
+  border-radius: 5px;
+  
+}
+
+.wall{
+  background-image: url("../img/background/stair.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+  .bgColor{
+    background-color: rgb(235, 240, 245);
+  }
+
+  .navBarImg{
+    background-image: url("../img/background/navBar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+  .portfolioCard{
+    height: 200px;
+  }
+
+
+.animationUpAndDown{
+  position: relative;
+  animation-name: animationUpDown;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.animationLeftAndRight{
+  position: relative;
+  animation-name: animationLeftRight;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animationUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-45px);
+  }
+  }
+
+  @keyframes animationLeftRight {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-45px);
+    }
+    }
